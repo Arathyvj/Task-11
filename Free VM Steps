@@ -1,0 +1,26 @@
+To start a free virtual machine (VM) in your AWS cloud account:
+Create an AWS Account
+ AWS account, visit the AWS Console and sign up
+ Provide the necessary details during the sign-up process
+ Access the Amazon EC2 Console
+ Click on “Launch Instance” to begin creating VM
+ Choose an Amazon Machine Image (AMI)
+ In the “Launch Instance” section, select “Launch Instance.”
+ To limit the AMIs to Free Tier eligible ones
+ Pick a Windows AMI labeled as “Free tier eligible"
+ Configure Instance Details:
+ Choose the instance type (e.g., t2.micro) that fits requirements
+ Configure storage, tags, and security groups
+ Review and Launch:
+ Review settings and make necessary adjustments
+ Click “Launch” to create your EC2 instance
+ Key Pair:
+ Don’t have an existing key pair, create one or use an existing one
+ This key pair allows to securely connect to your instance
+ Security Group Rules:
+ Ensure that security group allows necessary inbound traffic (e.g., SSH, HTTP, HTTPS) based on use case.
+ Launch  EC2 Instance
+ Finally, click “Launch Instances” to start VM.
+ Receive a confirmation message, and instance will be up and running.
+ Connect to Instance:
+ Use the key pair created earlier to connect to your EC2 instance via SSH or RDP
